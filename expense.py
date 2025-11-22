@@ -6,5 +6,4 @@ class Expense:
         self.sub_category = sub_category
         self.amount = amount
 
-    def __repr__(self):
-        return "Expense is getting tracked"
+    
