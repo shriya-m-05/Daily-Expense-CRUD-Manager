@@ -108,7 +108,7 @@ def summarize_expense(file_path_expense, budget):
     print(f"You've spent Rs {total_spent:.2f} this month!")
 
     remaining_budget = budget - total_spent
-    print(f"Remaining Budget : Rs{total_spent:.2f}")
+    print(f"Remaining Budget : Rs{remaining_budget:.2f}")
 
     now = datetime.now()
 
