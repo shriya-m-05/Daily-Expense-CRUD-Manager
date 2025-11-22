@@ -1,6 +1,10 @@
 class Expense:
 
-    def __init__(self, name, category, amount) -> None:
+    def __init__(self, name, category, sub_category, amount) -> None:
         self.name = name
         self.category = category
+        self.sub_category = sub_category
         self.amount = amount
+
+    def __repr__(self):
+        return "Expense is getting tracked"
