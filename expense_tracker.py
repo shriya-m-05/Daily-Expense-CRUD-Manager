@@ -5,6 +5,8 @@ from datetime import datetime
 
 def main():
 
+    print("==========DAILY EXPENSE MANAGER==========")
+
     file_path_expense = "expense.csv"
     budget = 10000
     #Get user input
@@ -24,8 +26,8 @@ def user_input():
     amount_expense = float(input("Enter amount of expense - "))
 
     category_expense = ['Needs', 'Wants']
-    sub_category_need = ['Food','Home','Learn']
-    sub_category_want = ['Enetrtainment','Shopping','Others']
+    sub_category_need = ['🍔  Food','🏡  Home','📖  Learn']
+    sub_category_want = ['🎬  Entertainment','🛍️  Shopping','✔️  Others']
 
     print("Enter category based on number given : ")
    
