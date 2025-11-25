@@ -1,0 +1,42 @@
+?- start.
+Expense database initialized with sample data.
+
+=== DAILY EXPENSE CRUD MANAGER ===
+1. Add New Expense
+2. List All Expenses
+3. Find Expense by ID
+4. Update Expense
+5. Delete Expense
+6. View Statistics
+7. Search Expenses
+8. Exit
+Choose an option (1-8): 2
+
+=== ALL EXPENSES ===
+ID: 1 | Date: date(2024,1,15) | Category: Food | Amount: $25.50 | Description: Lunch at restaurant
+ID: 2 | Date: date(2024,1,15) | Category: Transport | Amount: $12.00 | Description: Bus fare
+ID: 3 | Date: date(2024,1,16) | Category: Entertainment | Amount: $45.00 | Description: Movie tickets
+ID: 4 | Date: date(2024,1,16) | Category: Food | Amount: $15.75 | Description: Groceries
+ID: 5 | Date: date(2024,1,17) | Category: Utilities | Amount: $120.00 | Description: Electricity bill
+ID: 6 | Date: date(2024,1,17) | Category: Food | Amount: $8.50 | Description: Coffee
+
+Choose an option (1-8): 6
+
+=== STATISTICS ===
+Total Expenses: $226.75
+
+Category Breakdown:
+==================
+Food: $49.75
+Transport: $12.00
+Entertainment: $45.00
+Utilities: $120.00
+
+Choose an option (1-8): 1
+
+=== ADD NEW EXPENSE ===
+Enter date (format: date(Year,Month,Day)): date(2024,1,18).
+Enter category: 'Shopping'.
+Enter amount: 75.50.
+Enter description: 'New clothes'.
+Expense added successfully! ID: 7
